@@ -1,5 +1,4 @@
 import streamlit as st
-st.set_option('server.maxUploadSize', 1000)
 import pandas as pd
 import numpy as np
 import statsmodels.api as sm
@@ -918,3 +917,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
